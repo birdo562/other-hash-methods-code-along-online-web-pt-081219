@@ -1,4 +1,4 @@
-require 'pry'
+
 
 #This is the groceries hash we'll be passing in to the get_the_min method
 # groceries = {
@@ -10,5 +10,4 @@ require 'pry'
 
 def get_the_min(groceries)
   groceries.values.flatten.min
-  binding.pry
 end
